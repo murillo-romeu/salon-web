@@ -8,7 +8,7 @@ const SignIn: React.FC = () => (
     <Content>
       <img src={logo} height={120} alt="Salon" />
       <form>
-        <h1>Acesso o sistema.</h1>
+        <h2>ACESSO AO SISTEMA</h2>
         <input placeholder="E-mail" />
         <input type="password" placeholder="Senha" />
         <button type="submit"> Entrar </button>
