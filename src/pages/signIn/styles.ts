@@ -28,41 +28,6 @@ export const Content = styled.div`
       margin-bottom: 24px;
     }
 
-    input {
-      background-color: #232129;
-      border-radius: 10px;
-      border: 2px solid #232129;
-      padding: 16px;
-      width: 100%;
-      color: #ffffff;
-
-      &::placeholder {
-        color: #666360;
-      }
-
-
-      & + input {
-        margin-top: 8px;
-      }
-
-    }
-
-    button {
-      background-color: #9B51E0;
-      height: 56px;
-      border-radius: 10px;
-      border: 0;
-      padding: 0 16px;
-      width: 100%;
-      font-weight: 500;
-      margin-top: 16px;
-      transition: background-color 0.2s;
-
-      &:hover {
-        background: ${shade(0.2, '#9B51E0')}
-      }
-    }
-
     a {
       color: #ffffff;
       display: block;

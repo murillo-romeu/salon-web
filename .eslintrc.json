@@ -24,6 +24,8 @@
   "rules": {
     "camelcase": "off",
     "no-use-before-define": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
