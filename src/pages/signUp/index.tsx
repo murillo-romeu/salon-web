@@ -6,9 +6,12 @@ import {
 import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
+import { Link } from 'react-router-dom';
 import getValidationErrors from '../../utils/getValidationErrors';
 import logo from '../../assets/logo.svg';
-import { Container, Content, Background } from './styles';
+import {
+  Container, Content, Background, AnimationContainer,
+} from './styles';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
 
@@ -38,23 +41,25 @@ const SignUp: React.FC = () => {
     <Container>
       <Background />
       <Content>
-        <img src={logo} height={120} alt="Salon" />
-        <Form ref={formRef} initialData={{ }} onSubmit={handleSubmit}>
-          <h2>FAÇA SEU CADASTRO</h2>
-          <Input name="name" icon={FiUser} placeholder="Nome" />
-          <Input name="email" icon={FiMail} placeholder="E-mail" />
-          <Input
-            name="password"
-            icon={FiLock}
-            type="password"
-            placeholder="Senha"
-          />
-          <Button type="submit"> Cadastrar </Button>
-        </Form>
-        <a href="forgot">
-          <FiArrowLeft />
-          Voltar para logon
-        </a>
+        <AnimationContainer>
+          <img src={logo} height={120} alt="Salon" />
+          <Form ref={formRef} initialData={{ }} onSubmit={handleSubmit}>
+            <h2>FAÇA SEU CADASTRO</h2>
+            <Input name="name" icon={FiUser} placeholder="Nome" />
+            <Input name="email" icon={FiMail} placeholder="E-mail" />
+            <Input
+              name="password"
+              icon={FiLock}
+              type="password"
+              placeholder="Senha"
+            />
+            <Button type="submit"> Cadastrar </Button>
+          </Form>
+          <Link to="/">
+            <FiArrowLeft />
+            Voltar para logon
+          </Link>
+        </AnimationContainer>
       </Content>
     </Container>
   );
