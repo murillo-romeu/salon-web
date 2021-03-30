@@ -44,9 +44,13 @@ const SignIn: React.FC = () => {
         const errors = getValidationErrors(err);
 
         formRef.current?.setErrors(errors);
+      } else {
+        addToast({
+          type: 'error',
+          title: 'Acesso não autorizado',
+          description: 'Usuário e / ou senha inválidos',
+        });
       }
-
-      addToast();
     }
   }, [signIn, addToast]);
 
