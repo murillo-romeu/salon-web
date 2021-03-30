@@ -9,7 +9,7 @@ interface MyValidationError extends ValidationError{
   inner: MyValidationError[];
 }
 
-export default function getValidationErros(err: MyValidationError): Errors {
+export default function getValidationErrors(err: MyValidationError): Errors {
   const validationErrors: Errors = {};
 
   err.inner.forEach((error) => {
