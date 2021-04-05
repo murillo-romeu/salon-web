@@ -14,8 +14,11 @@
    viewBox="0 0 297 136"
    version="1.1"
    id="svg5450"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="logo.svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/murillo-romeu/estudos/salon/salon-web/src/assets/logo@3x.png"
+   inkscape:export-xdpi="54.52"
+   inkscape:export-ydpi="54.52">
   <defs
      id="defs5444" />
   <sodipodi:namedview
@@ -26,16 +29,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="355.32383"
+     inkscape:cx="-304.67617"
      inkscape:cy="495.6015"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="743"
+     inkscape:window-width="1600"
+     inkscape:window-height="863"
      inkscape:window-x="0"
-     inkscape:window-y="14"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata5447">
     <rdf:RDF>
@@ -44,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,37 +59,30 @@
      id="layer1"
      transform="translate(0,-161)">
     <rect
-       style="opacity:1;fill:#9b51e0;fill-opacity:0.91764706;stroke:#9b51e0;stroke-width:0.27909207;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke markers fill"
-       id="rect5452"
-       width="287.45303"
-       height="7.6251855"
-       x="4.9828525"
-       y="171.6786" />
-    <rect
        style="opacity:1;fill:#9b51e0;fill-opacity:0.91764706;stroke:#9b51e0;stroke-width:0.31664082;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke markers fill"
        id="rect5452-3"
        width="282.38181"
        height="9.9912357"
        x="7.5184636"
-       y="255.27631" />
+       y="268.50565" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:22.30209541px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e5daf2;fill-opacity:1;stroke:none;stroke-width:0.5575524"
-       x="29.683229"
-       y="247.14969"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.30209541px;line-height:1.25;font-family:'Quicksand Medium';-inkscape-font-specification:'Quicksand Medium, ';letter-spacing:0px;word-spacing:0px;fill:#e5daf2;fill-opacity:1;stroke:none;stroke-width:0.5575524"
+       x="16.454052"
+       y="261.43713"
        id="text6014"><tspan
          sodipodi:role="line"
          id="tspan6012"
-         x="29.683229"
-         y="247.14969"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.05005646px;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#e5daf2;fill-opacity:1;stroke-width:0.5575524">salon</tspan></text>
+         x="16.454052"
+         y="261.43713"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.05005646px;font-family:'Quicksand Medium';-inkscape-font-specification:'Quicksand Medium, ';fill:#e5daf2;fill-opacity:1;stroke-width:0.5575524">salon</tspan></text>
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#9b51e0;fill-opacity:0.91764706;stroke:#9b51e0;stroke-width:0.34668925;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke markers fill"
        id="path6020"
        sodipodi:sides="4"
-       sodipodi:cx="14.231059"
-       sodipodi:cy="217.51973"
+       sodipodi:cx="99.124512"
+       sodipodi:cy="234.22623"
        sodipodi:r1="8.9556246"
        sodipodi:r2="4.4778123"
        sodipodi:arg1="1.5707963"
@@ -92,7 +90,7 @@
        inkscape:flatsided="false"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 14.231059,226.47535 -3.166291,-5.78933 -5.7893335,-3.16629 5.7893335,-3.16629 3.166291,-5.78933 3.166292,5.78933 5.789333,3.16629 -5.789334,3.16629 z"
+       d="m 99.124512,243.18185 -3.166292,-5.78933 -5.789333,-3.16629 5.789333,-3.16629 3.166291,-5.78934 3.166289,5.78934 5.78934,3.16629 -5.78934,3.16629 z"
        inkscape:transform-center-y="-1.314628e-05"
        inkscape:transform-center-x="-3.5824997e-06" />
     <path
@@ -100,8 +98,8 @@
        style="opacity:1;fill:#9b51e0;fill-opacity:0.91764706;stroke:#9b51e0;stroke-width:0.34668925;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke markers fill"
        id="path6020-6"
        sodipodi:sides="4"
-       sodipodi:cx="281.21899"
-       sodipodi:cy="217.51973"
+       sodipodi:cx="192.62141"
+       sodipodi:cy="234.0751"
        sodipodi:r1="8.9556246"
        sodipodi:r2="4.4778123"
        sodipodi:arg1="1.5707963"
@@ -109,20 +107,20 @@
        inkscape:flatsided="false"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 281.21899,226.47535 -3.16629,-5.78933 -5.78933,-3.16629 5.78933,-3.16629 3.16629,-5.78933 3.1663,5.78933 5.78933,3.16629 -5.78933,3.16629 z"
+       d="m 192.62141,243.03073 -3.16629,-5.78933 -5.78933,-3.1663 5.78933,-3.16629 3.16629,-5.78933 3.1663,5.78933 5.78933,3.16629 -5.78933,3.1663 z"
        inkscape:transform-center-y="-1.314628e-05"
        inkscape:transform-center-x="9.4242988e-06" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.67903423px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fefefe;fill-opacity:0.91764706;stroke:none;stroke-width:0.14197586"
-       x="5.6315408"
-       y="305.17215"
+       style="font-style:normal;font-weight:normal;font-size:3.43257666px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fefefe;fill-opacity:0.91764706;stroke:none;stroke-width:0.08581442"
+       x="6.155581"
+       y="417.08282"
        id="text6014-5"
-       transform="scale(1.0631197,0.94062781)"><tspan
+       transform="scale(1.4227483,0.70286499)"><tspan
          sodipodi:role="line"
          id="tspan6012-6"
-         x="5.6315408"
-         y="305.17215"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.25936699px;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#fefefe;fill-opacity:0.91764706;stroke-width:0.14197586">beauty salon scheduling</tspan></text>
+         x="6.155581"
+         y="417.08282"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.47636986px;font-family:Dyuthi;-inkscape-font-specification:Dyuthi;fill:#fefefe;fill-opacity:0.91764706;stroke-width:0.08581442">beauty salon scheduling</tspan></text>
   </g>
 </svg>
