@@ -6,9 +6,7 @@ import * as Yup from 'yup';
 import { Link, useHistory } from 'react-router-dom';
 
 import logo from '../../assets/logo.svg';
-import {
-  Container, Content, Background, AnimationContainer,
-} from './styles';
+import { Container, Content, Background, AnimationContainer } from './styles';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
 import getValidationErrors from '../../utils/getValidationErrors';
@@ -17,7 +15,7 @@ import { useAuth } from '../../hooks/auth';
 import { useToast } from '../../hooks/toast';
 
 interface SignInFormData {
-  email: string,
+  email: string;
   password: string;
 }
 
@@ -28,38 +26,43 @@ const SignIn: React.FC = () => {
   const { addToast } = useToast();
   const history = useHistory();
 
-  const handleSubmit = useCallback(async (data: SignInFormData) => {
-    try {
-      formRef.current?.setErrors({});
-      const schema = Yup.object().shape({
-        email: Yup.string().required('E-mail obrigatório').email('E-mail invalido'),
-        password: Yup.string().required('Senha obrigatória'),
-      });
-
-      await schema.validate(data, {
-        abortEarly: false,
-      });
-
-      await signIn({
-        email: data.email,
-        password: data.password,
-      });
-
-      history.push('/dashboard');
-    } catch (err) {
-      if (err instanceof Yup.ValidationError) {
-        const errors = getValidationErrors(err);
-
-        formRef.current?.setErrors(errors);
-      } else {
-        addToast({
-          type: 'error',
-          title: 'Acesso não autorizado',
-          description: 'Usuário e / ou senha inválidos',
+  const handleSubmit = useCallback(
+    async (data: SignInFormData) => {
+      try {
+        formRef.current?.setErrors({});
+        const schema = Yup.object().shape({
+          email: Yup.string()
+            .required('E-mail obrigatório')
+            .email('E-mail invalido'),
+          password: Yup.string().required('Senha obrigatória'),
         });
+
+        await schema.validate(data, {
+          abortEarly: false,
+        });
+
+        await signIn({
+          email: data.email,
+          password: data.password,
+        });
+
+        history.push('/dashboard');
+      } catch (err) {
+        if (err instanceof Yup.ValidationError) {
+          const errors = getValidationErrors(err);
+
+          formRef.current?.setErrors(errors);
+        } else {
+          addToast({
+            type: 'error',
+            title: 'Acesso não autorizado',
+            description: 'Usuário e / ou senha inválidos',
+          });
+        }
       }
-    }
-  }, [signIn, addToast, history]);
+    },
+    [signIn, addToast, history]
+  );
 
   return (
     <Container>

@@ -56,13 +56,13 @@ export const AnimationContainer = styled.div`
       transition: background-color 0.2s;
 
       &:hover {
-        color: ${shade(0.2, '#ffffff')}
+        color: ${shade(0.2, '#ffffff')};
       }
     }
   }
 
   > a {
-    color: #9B51E0;
+    color: #9b51e0;
     display: block;
     margin-top: 24px;
     text-decoration: none;
@@ -76,7 +76,7 @@ export const AnimationContainer = styled.div`
     }
 
     &:hover {
-      color: ${shade(0.2, '#9B51E0')}
+      color: ${shade(0.2, '#9B51E0')};
     }
   }
 `;

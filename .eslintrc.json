@@ -6,6 +6,7 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
+    "prettier",
     "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -18,10 +19,12 @@
   },
   "plugins": [
     "react",
+    "prettier",
     "react-hooks",
     "@typescript-eslint"
   ],
   "rules": {
+    "prettier/prettier": "error",
     "camelcase": "off",
     "no-use-before-define": "off",
     "react/jsx-props-no-spreading": "off",

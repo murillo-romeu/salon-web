@@ -7,20 +7,20 @@ interface ContainerProps {
 
 const toastTypeVariations = {
   info: css`
-    background-color: #E7D0F1;
-    color: #9B51E0;
+    background-color: #e7d0f1;
+    color: #9b51e0;
   `,
   success: css`
-    background-color: #D0F1DE;
-    color: #00461E;
+    background-color: #d0f1de;
+    color: #00461e;
   `,
   error: css`
-    background-color: #F1D0D7;
-    color: #FF007F;
+    background-color: #f1d0d7;
+    color: #ff007f;
   `,
   warning: css`
-    background-color: #F0F3B7;
-    color: #878C00;
+    background-color: #f0f3b7;
+    color: #878c00;
   `,
 };
 
@@ -65,11 +65,13 @@ export const Container = styled.div<ContainerProps>`
     color: inherit;
   }
 
-  ${(props) => !props.hasDescription && css`
-    align-items: center;
+  ${(props) =>
+    !props.hasDescription &&
+    css`
+      align-items: center;
 
-    svg {
-      margin-top: 0;
-    }
-  `}
+      svg {
+        margin-top: 0;
+      }
+    `}
 `;
