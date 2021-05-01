@@ -77,7 +77,6 @@ const Dashboard: React.FC = () => {
       })
       .then((response) => {
         setAppointments(response.data);
-        console.log(response.data);
       });
   }, [selectedDate]);
 
